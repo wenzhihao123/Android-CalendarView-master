@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wzh.calendar.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_week"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/week_num"
+        android:layout_width="wrap_content"
+        android:text="一"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="2dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="10"
+        android:textColor="#333333" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:paddingBottom="2dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+</com.wzh.calendar.view.SquareLayout>
